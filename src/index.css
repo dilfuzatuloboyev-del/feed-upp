@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* Skroll-barni yashirish uchun maxsus klass */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE va Edge */
+  scrollbar-width: none;  /* Firefox */
+}
